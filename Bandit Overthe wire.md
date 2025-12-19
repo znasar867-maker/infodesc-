@@ -1,11 +1,11 @@
-**#Bandit level 0 - 1:**
+#Bandit level 0 - 1:
 
-\##Goal:
+##Goal:
 Find the file called readme located in home directory to find the password for next level.
 
 
 
-\##steps :
+##steps :
 
 Connect using SSH to the wargame.
 
@@ -15,7 +15,7 @@ Display the password in the file.
 
 
 
-\##Commands used:
+##Commands used:
 
 1. ssh bandit0@bandit.labs.overthewire.org -p 2220
 2. ls
@@ -24,14 +24,14 @@ Display the password in the file.
 
 
 
-**#Bandit level 1-2:**
+#Bandit level 1-2:
 
-\##Goal:
+##Goal:
 To find the password for the next level, which is stored in a file called - located in the home directory.
 
 
 
-\##steps:
+##steps:
 
 Connect to the wargame via SSH (use the password from the previous level).
 
@@ -41,7 +41,7 @@ Display the password in the file.
 
 
 
-\##Commands used:
+##Commands used:
 
 1. ssh bandit1@bandit.labs.overthewire.org -p 2220
 2. ls
@@ -50,14 +50,14 @@ Display the password in the file.
 
 
 
-**#Bandit level 2-3:**
+#Bandit level 2-3:
 
-\##Goal:
+##Goal:
 To find the password for the next level, which is stored in a file called --spaces in this filename-- located in the home directory.
 
 
 
-\##steps:
+##steps:
 
 Connect to the wargame via SSH (use the password from the previous level).
 
@@ -67,7 +67,7 @@ Display the password in the file.
 
 
 
-\##Commands used:
+##Commands used:
 
 1. ssh bandit2@bandit.labs.overthewire.org -p 2220
 2. ls
@@ -76,14 +76,14 @@ Display the password in the file.
 
 
 
-**#Bandit level 3-4:**
+#Bandit level 3-4:
 
-\##Goal:
+##Goal:
 To find the password for the next level, which is stored in a hidden file in the inhere directory
 
 
 
-\##steps:
+##steps:
 
 Connect to the wargame via SSH (use the password from the previous level).
 
@@ -95,7 +95,7 @@ Display the password in the file.
 
 
 
-\##Commands used:
+##Commands used:
 
 1. ssh bandit3@bandit.labs.overthewire.org -p 2220
 2. ls
@@ -106,14 +106,14 @@ Display the password in the file.
 
 
 
-**#Bandit level 4-5:**
+#Bandit level 4-5:
 
-\##Goal:
+##Goal:
 To find the password for the next level, which is stored in a only human-readable file in the inhere directory
 
 
 
-\##steps:
+##steps:
 
 Connect to the wargame via SSH (use the password from the previous level).
 
@@ -125,7 +125,7 @@ Display the password in the file.
 
 
 
-\##Commands used:
+##Commands used:
 
 1. ssh bandit4@bandit.labs.overthewire.org -p 2220
 2. ls
@@ -137,15 +137,15 @@ Display the password in the file.
 
 
 
-**#Bandit level 5-6:**
+#Bandit level 5-6:
 
-\##Goal:
+##Goal:
 To find the password for the next level, which is stored in a file in the inhere directory
 which is human-readable, 1033 bytes in size, and not executable.
 
 
 
-\##steps:
+##steps:
 
 Connect to the wargame via SSH (use the password from the previous level).
 
@@ -157,7 +157,7 @@ Display the password in the file.
 
 
 
-\##Commands used:
+##Commands used:
 
 1. ssh bandit5@bandit.labs.overthewire.org -p 2220
 2. ls
