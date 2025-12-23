@@ -31,27 +31,46 @@ pwn.college{Yj1zFFyYgfoUIol6QIa7yut8rxn.QX4YjM1wSO2QDM1EzW}
 ### Challenge: Command History
 
 **Commands Used:**
+
 history
 
 **Output:**
   1  whoami
+
     2  ls
+
     3  ls -a
+
     4  cat .bash_history
+
     5  cat .config
+
     6  cd .config
+
     7  ls
+
     8  ls -a
+
     9  cat .
+
    10  cd..
+
    11  cd ..
+
    12  hello
+
    13  bash
+
    14  hello
+
    15  echo hello
+
    16  hello
+
    17  hello hackers
+
    18  the flag is pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
+
    19  history
 
 **Flag:**
@@ -89,7 +108,9 @@ pwn.college{wJEaPRlDMX0oycpmszuDWqAzoo9.QX1QTN0wSO2QDM1EzW}
 
 **Commands Used:**
 /challenge/run
+
 cd /home
+
 /challenge/run
 
 **Output:**
@@ -103,14 +124,23 @@ pwn.college{gy5_Tcn2Kr0GoeULhfiR5tLDZdT.QX2QTN0wSO2QDM1EzW}
 
 **Commands Used:**
 /challenge/run
+
 cd /usr/bin
+
 /challenge/run
+
 cd /etc
+
 /challenge/run
+
 cd proc/140
+
 /challenge/run
+
 cd /usr/share/zoneinfo/posix/Asia
+
 /challenge/run
+
 cd /usr/share/doc
 
 **Output:**
@@ -153,6 +183,7 @@ pwn.college{QZxjc_-HzfZNQV47yCLMPwPAtYV.QX3QTN0wSO2QDM1EzW}
 
 **Commands Used:**
 cd /
+
 challenge/run
 
 **Output:**
@@ -183,6 +214,7 @@ pwn.college{IJHX2yN8dxWT4v329qiu-8bkBOM.QXwUTN0wSO2QDM1EzW}
 
 **Commands Used:**
 cd /challenge
+
 ./ run
 
 **Output:**
@@ -258,6 +290,7 @@ pwn.college{8-wZc-WsrcxqU3w-B2t7fwqzyoP.QX3EDO0wSO2QDM1EzW}
 
 **Commands Used:**
 cd /challenge
+
 diff  decoys_only.txt decoys_and_real.txt 
 
 **Output:**
@@ -271,7 +304,9 @@ pwn.college{wo2Q-gxjVz6dJGSrqaE4xE2yWgi.01MwMDOxwSO2QDM1EzW}
 
 **Commands Used:**
 cd /challenge
+
 ls
+
 ./26900-renamed-run-14423
 
 **Output:**
@@ -287,7 +322,9 @@ pwn.college{4u-70YesAhsw5c0OrV9PQTExWZv.QX4IDO0wSO2QDM1EzW}
 
 **Commands Used:**
 touch /tmp/pwn
+
 touch /tmp/college
+
 /challenge/run
 
 **Output:**
@@ -301,7 +338,9 @@ pwn.college{QS9dW4yOVjznS-hUjg-a76sgp8L.QXwMDO0wSO2QDM1EzW}
 
 **Commands Used:**
 ls
+
 rm delete_me
+
 /challenge/check
 
 **Output:**
@@ -315,6 +354,7 @@ pwn.college{wjwVa7Hs-evcNuEJWF1eFYifKeL.QX2kDM1wSO2QDM1EzW}
 
 **Commands Used:**
 mv /flag /tmp/hack-the-planet
+
 /challenge/check
 
 **Output:**
@@ -331,6 +371,7 @@ pwn.college{c4qqrkLnpoYSDlH4alx3ESOo-u3.0VOxEzNxwSO2QDM1EzW}
 
 **Commands Used:**
 cp /flag /tmp/hack-the-planet
+
 /challenge/check
 
 **Output:**
@@ -346,7 +387,9 @@ pwn.college{4u1RWTrhQlNhKL--IW09o9kCMTW.0lNxQTMywSO2QDM1EzW}
 
 **Commands Used:**
 cd /
+
 ls -a
+
 cat /.flag-30424586911493
 
 **Output:**
@@ -363,30 +406,55 @@ pwn.college{8WbwAngLh_mCGhNkzo8r0svUVuC.QXwUDO0wSO2QDM1EzW}
 
 **Commands Used:**
 cd /
+
 ls -a
+
 cat GIST
+
 cd /usr/share/icons/ubuntu-mono-light/places/22
+
 ls -a
+
 cat .NOTE
+
 cd /usr/share/emacs/26.3/etc/schema
+
 ls -a
+
 cat REVELATION
+
 cd /opt/linux/linux-5.4/Documentation/devicetree/bindings/arm/npmc
+
 ls -a
+
 cat MESSAGE
+
 cd /usr/lib/python3/dist-packages/sympy/algebras/tests
+
 ls -a
+
 cat CLUE
+
 cd /usr/share/doc/jmol/html/fr
+
 ls -a
+
 cat .POINTER
+
 cd /usr/share/racket/pkgs/htdp-lib/lang/compiled
+
 ls -a
+
 cat INSIGHT
+
 ls /usr/local/lib/python3.8/dist-packages/networkx/algorithms/community/tests
+
 cat /usr/local/lib/python3.8/dist-packages/networkx/algorithms/community/tests/README-TRAPPED
+
 cd /usr/lib/python3/dist-packages/nose/tools
+
 ls -a
+
 cat INFO
 
 **Output:**
@@ -400,8 +468,11 @@ pwn.college{42f3cK-6qlKdGkkjSJsa-2G_tES.QX5IDO0wSO2QDM1EzW}
 
 **Commands Used:**
 mkdir /tmp/pwn
+
 cd /tmp/pwn
+
 touch college
+
 /challenge/run
 
 **Output:**
@@ -426,6 +497,7 @@ pwn.college{oloRBYFtDDBhOLEU5EJKbwC_3s9.QXyMDO0wSO2QDM1EzW}
 
 **Commands Used:**
 ln -s /flag not-the-flag
+
 /challenge/catflag
 
 **Output:**
@@ -465,6 +537,7 @@ pwn.college{Q3eWbFBUkMkkJeTEDTD1Vb3nzov.QX1ITO0wSO2QDM1EzW}
 
 **Commands Used:**
 man challenge
+
 /challenge/challenge --cxkbfn 624
 
 **Output:**
@@ -477,6 +550,7 @@ Correct usage! Your flag: pwn.college{cxkbfn6cxvi2Z4e_O25k7-A1DqI.QX0EDO0wSO2QDM
 
 **Commands Used:**
 man challenge (after the manual opens type / flag)
+
 /challenge/challenge --vap
 
 **Output:**
@@ -490,8 +564,11 @@ Correct usage! Your flag: pwn.college{QK1mq4Gov8Q4MFSU82IJ0qE5cT4.QX1EDO0wSO2QDM
 
 **Commands Used:**
 man man
+
 man -k challenge
+
 man wvbhehecte
+
 /challenge/challenge  --wvbheh 252
 
 **Output:**
@@ -504,7 +581,9 @@ Correct usage! Your flag: pwn.college{wvCIbh2ReX5hXecBt-eruOMgwsu.QX2EDO0wSO2QDM
 
 **Commands Used:**
 /challenge/challenge --help
+
 /challenge/challenge -p
+
 /challenge/challenge -g 443
 
 **Output:**
@@ -517,6 +596,7 @@ Correct usage! Your flag: pwn.college{A-4PDRFIkYDfswvaJ4saXCZVgbA.QX3IDO0wSO2QDM
 
 **Commands Used:**
 help challenge
+
 challenge --secret M7VHZgbk
 
 **Output:**
