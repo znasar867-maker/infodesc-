@@ -56,25 +56,25 @@ history
 
     9.cat .
 
-   10.cd..
+    10.cd..
 
-   11.cd ..
+    11.cd ..
 
-   12.hello
+    12.hello
 
-   13.bash
+    13.bash
 
-   14.hello
+    14.hello
 
-   15.echo hello
+    15.echo hello
 
-   16.hello
+    16.hello
 
-   17.hello hackers
+    17.hello hackers
 
-   18.the flag is pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
+    18.the flag is pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
 
-   19.history
+    19.history
 
 **Flag:**
 pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
