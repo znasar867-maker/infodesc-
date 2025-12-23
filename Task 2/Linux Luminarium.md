@@ -5,6 +5,7 @@
 ### Challenge: Intro To Commands
 
 **Commands Used:**
+
 hello
 
 **Output:**
@@ -17,6 +18,7 @@ pwn.college{UM35YbHijei4H5tHAtQHI_04PEm.QX3YjM1wSO2QDM1EzW}
 ### Challenge: Intro To Arguments
 
 **Commands Used:**
+
 echo hello
 
 hello hackers
@@ -35,43 +37,44 @@ pwn.college{Yj1zFFyYgfoUIol6QIa7yut8rxn.QX4YjM1wSO2QDM1EzW}
 history
 
 **Output:**
-  1  whoami
 
-    2  ls
+    1.whoami
 
-    3  ls -a
+    2.ls
 
-    4  cat .bash_history
+    3.ls -a
 
-    5  cat .config
+    4.cat .bash_history
 
-    6  cd .config
+    5.cat .config
 
-    7  ls
+    6.cd .config
 
-    8  ls -a
+    7.ls
 
-    9  cat .
+    8.ls -a
 
-   10  cd..
+    9.cat .
 
-   11  cd ..
+   10.cd..
 
-   12  hello
+   11.cd ..
 
-   13  bash
+   12.hello
 
-   14  hello
+   13.bash
 
-   15  echo hello
+   14.hello
 
-   16  hello
+   15.echo hello
 
-   17  hello hackers
+   16.hello
 
-   18  the flag is pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
+   17.hello hackers
 
-   19  history
+   18.the flag is pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
+
+   19.history
 
 **Flag:**
 pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
@@ -81,6 +84,7 @@ pwn.college{8fryqTHW0iwYgiXSubQeKEw4bDF.0lNzEzNxwSO2QDM1EzW}
 ### Challenge: The Root
 
 **Commands Used:**
+
 /pwn
 
 **Output:**
@@ -94,6 +98,7 @@ pwn.college{sqeMfb54IGBnfoKmMe1gKWmMa3e.QX4cTO0wSO2QDM1EzW}
 ### Challenge: Programs and absolute path
 
 **Commands Used:**
+
 /challenge/run
 
 **Output:**
@@ -107,6 +112,7 @@ pwn.college{wJEaPRlDMX0oycpmszuDWqAzoo9.QX1QTN0wSO2QDM1EzW}
 ### Challenge: Position thy self
 
 **Commands Used:**
+
 /challenge/run
 
 cd /home
@@ -123,6 +129,7 @@ pwn.college{gy5_Tcn2Kr0GoeULhfiR5tLDZdT.QX2QTN0wSO2QDM1EzW}
 ### Challenge: Position elsewhere
 
 **Commands Used:**
+
 /challenge/run
 
 cd /usr/bin
@@ -182,6 +189,7 @@ pwn.college{QZxjc_-HzfZNQV47yCLMPwPAtYV.QX3QTN0wSO2QDM1EzW}
 ### Challenge: Implicit relative paths, from /
 
 **Commands Used:**
+
 cd /
 
 challenge/run
@@ -199,6 +207,7 @@ pwn.college{kagsVHt6JQIkBA_wzVEcGVrIVCU.QX5QTN0wSO2QDM1EzW}
 ### Challenge: Explicit relative paths, from /
 
 **Commands Used:**
+
 ./challenge/run
 
 **Output:**
@@ -229,6 +238,7 @@ pwn.college{M3w712SUNgydAqvJWCAOaGLqv1T.QXxUTN0wSO2QDM1EzW}
 ### Challenge: home sweet home
 
 **Commands Used:**
+
  /challenge/run ~/!
 
 **Output:**
@@ -244,6 +254,7 @@ pwn.college{oqoi9GB32eu0GSjGasuMy8kz6KH.QXzMDO0wSO2QDM1EzW}
 ### Challenge: cat: not the pet, but the command
 
 **Commands Used:**
+
 cat flag
 
 **Output:**
@@ -255,6 +266,7 @@ pwn.college{UUDd4e0dPpEPxrNnNqgA_PLxn3r.QXxcTN0wSO2QDM1EzW}
 ### Challenge: catting absolute paths
 
 **Commands Used:**
+
 cat /flag
 
 **Output:**
@@ -266,6 +278,7 @@ pwn.college{EmURHuKajrUY08GrwW0LsIx1lMy.QX5ETO0wSO2QDM1EzW}
 ### Challenge: more catting practice
 
 **Commands Used:**
+
 cat file /lib/flag
 
 **Output:**
@@ -278,6 +291,7 @@ pwn.college{Uo7JPFfXY2d-oof5qqmG7FM6SmS.QXwITO0wSO2QDM1EzW}
 ### Challenge: grepping for a needle in a haystack
 
 **Commands Used:**
+
 grep pwn.college /challenge/data.txt
 
 **Output:**
@@ -289,6 +303,7 @@ pwn.college{8-wZc-WsrcxqU3w-B2t7fwqzyoP.QX3EDO0wSO2QDM1EzW}
 ### Challenge: comparing files
 
 **Commands Used:**
+
 cd /challenge
 
 diff  decoys_only.txt decoys_and_real.txt 
@@ -303,6 +318,7 @@ pwn.college{wo2Q-gxjVz6dJGSrqaE4xE2yWgi.01MwMDOxwSO2QDM1EzW}
 ### Challenge: listing files
 
 **Commands Used:**
+
 cd /challenge
 
 ls
@@ -321,6 +337,7 @@ pwn.college{4u-70YesAhsw5c0OrV9PQTExWZv.QX4IDO0wSO2QDM1EzW}
 ### Challenge: touching files
 
 **Commands Used:**
+
 touch /tmp/pwn
 
 touch /tmp/college
@@ -337,6 +354,7 @@ pwn.college{QS9dW4yOVjznS-hUjg-a76sgp8L.QXwMDO0wSO2QDM1EzW}
 ### Challenge: removing files
 
 **Commands Used:**
+
 ls
 
 rm delete_me
@@ -353,6 +371,7 @@ pwn.college{wjwVa7Hs-evcNuEJWF1eFYifKeL.QX2kDM1wSO2QDM1EzW}
 ### Challenge: moving files
 
 **Commands Used:**
+
 mv /flag /tmp/hack-the-planet
 
 /challenge/check
@@ -370,6 +389,7 @@ pwn.college{c4qqrkLnpoYSDlH4alx3ESOo-u3.0VOxEzNxwSO2QDM1EzW}
 ### Challenge: copying files
 
 **Commands Used:**
+
 cp /flag /tmp/hack-the-planet
 
 /challenge/check
@@ -386,6 +406,7 @@ pwn.college{4u1RWTrhQlNhKL--IW09o9kCMTW.0lNxQTMywSO2QDM1EzW}
 ### Challenge: hidden files
 
 **Commands Used:**
+
 cd /
 
 ls -a
@@ -405,6 +426,7 @@ pwn.college{8WbwAngLh_mCGhNkzo8r0svUVuC.QXwUDO0wSO2QDM1EzW}
 ### Challenge: An Epic Filesystem Quest
 
 **Commands Used:**
+
 cd /
 
 ls -a
@@ -467,6 +489,7 @@ pwn.college{42f3cK-6qlKdGkkjSJsa-2G_tES.QX5IDO0wSO2QDM1EzW}
 ### Challenge: making directories
 
 **Commands Used:**
+
 mkdir /tmp/pwn
 
 cd /tmp/pwn
@@ -485,6 +508,7 @@ pwn.college{UBQ-WcuuCdfkgyTS37jFYYlPxaC.QXxMDO0wSO2QDM1EzW}
 ### Challenge: finding files
 
 **Commands Used:**
+
 find /-name flag
 
 **Output:**
@@ -496,6 +520,7 @@ pwn.college{oloRBYFtDDBhOLEU5EJKbwC_3s9.QXyMDO0wSO2QDM1EzW}
 ### Challenge: linking files
 
 **Commands Used:**
+
 ln -s /flag not-the-flag
 
 /challenge/catflag
@@ -512,6 +537,7 @@ pwn.college{Y2onrBNhFlCIbUU7TQ7EFTVmdhY.QX5ETN1wSO2QDM1EzW}
 ### Challenge: Learning From Documentation
 
 **Commands Used:**
+
 /challenge/challenge --giveflag
 
 **Output:**
@@ -524,6 +550,7 @@ pwn.college{g7KSL4pjr6qQRNBGF0Wl3nuqUIy.QX0ITO0wSO2QDM1EzW}
 ### Challenge: Learning Complex Usage
 
 **Commands Used:**
+
 /challenge/challenge --printfile /flag
 
 **Output:**
@@ -536,6 +563,7 @@ pwn.college{Q3eWbFBUkMkkJeTEDTD1Vb3nzov.QX1ITO0wSO2QDM1EzW}
 ### Challenge: Reading Manuals
 
 **Commands Used:**
+
 man challenge
 
 /challenge/challenge --cxkbfn 624
@@ -549,6 +577,7 @@ Correct usage! Your flag: pwn.college{cxkbfn6cxvi2Z4e_O25k7-A1DqI.QX0EDO0wSO2QDM
 ### Challenge: Searching Manuals
 
 **Commands Used:**
+
 man challenge (after the manual opens type / flag)
 
 /challenge/challenge --vap
@@ -563,6 +592,7 @@ Correct usage! Your flag: pwn.college{QK1mq4Gov8Q4MFSU82IJ0qE5cT4.QX1EDO0wSO2QDM
 ### Challenge: Searching For Manuals
 
 **Commands Used:**
+
 man man
 
 man -k challenge
@@ -580,6 +610,7 @@ Correct usage! Your flag: pwn.college{wvCIbh2ReX5hXecBt-eruOMgwsu.QX2EDO0wSO2QDM
 ### Challenge: Helpful Programs
 
 **Commands Used:**
+
 /challenge/challenge --help
 
 /challenge/challenge -p
@@ -595,6 +626,7 @@ Correct usage! Your flag: pwn.college{A-4PDRFIkYDfswvaJ4saXCZVgbA.QX3IDO0wSO2QDM
 ### Challenge: Help for Builtins
 
 **Commands Used:**
+
 help challenge
 
 challenge --secret M7VHZgbk
