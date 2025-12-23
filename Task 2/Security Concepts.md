@@ -1,7 +1,5 @@
 #SECURITY CONCEPTS
 
-
-
 This repository provides comprehensive explanations of two core security concepts:
 
 1. Encryption vs Encoding
