@@ -52,7 +52,7 @@ Display the password in the file.
 
 # Bandit level 2-3:
 
-##Goal:
+## Goal:
 To find the password for the next level, which is stored in a file called --spaces in this filename-- located in the home directory.
 
 
