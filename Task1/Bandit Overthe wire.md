@@ -139,7 +139,7 @@ Display the password in the file.
 
 # Bandit level 5-6:
 
-##Goal:
+## Goal:
 To find the password for the next level, which is stored in a file in the inhere directory
 which is human-readable, 1033 bytes in size, and not executable.
 
