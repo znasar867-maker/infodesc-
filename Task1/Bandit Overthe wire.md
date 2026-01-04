@@ -78,7 +78,7 @@ Display the password in the file.
 
 # Bandit level 3-4:
 
-##Goal:
+## Goal:
 To find the password for the next level, which is stored in a hidden file in the inhere directory
 
 
